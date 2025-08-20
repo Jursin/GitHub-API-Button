@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         GitHub API Button
 // @namespace    https://github.com/Jursin/GitHub-API-Button
-// @version      1.2
+// @version      1.0
 // @description  在 GitHub 仓库导航栏添加 API 按钮，并显示仓库/用户信息
 // @author       Jursin
 // @match        https://github.com/*
