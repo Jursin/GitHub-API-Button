@@ -1,10 +1,10 @@
-<div align="center"><a name="readme-top"></a>
+<div align="center">
 
 # [GitHub API Button]()
 
-> 在 GitHub 仓库导航栏添加 API 按钮
+> 在 GitHub 仓库导航栏添加 API 按钮，并在侧边栏显示仓库/用户 created_at、updated_at 信息
 
-[![GreasyFork installs](https://img.shields.io/greasyfork/dt/?style=flat&logo=GreasyFork&label=GreasyFork%20Install)]()
+[![GreasyFork installs](https://img.shields.io/greasyfork/dt/546506?style=flat&logo=GreasyFork&label=GreasyFork%20Install)](https://update.greasyfork.org/scripts/546506/GitHub%20API%20Button.user.js)
 
 </div>
 
@@ -26,7 +26,7 @@
     - 推荐：[Tampermonkey](https://www.tampermonkey.net/)
 - 选择脚本安装源：
     - [GitHub 源](https://github.com/Jursin/GitHub-API-Button/raw/refs/heads/main/main.js)
-    - [GreasyFork 源]()
+    - [GreasyFork 源](https://update.greasyfork.org/scripts/546506/GitHub%20API%20Button.user.js)
 - 刷新页面后，脚本即可生效
 
 ## 🤝 参与贡献
