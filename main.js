@@ -2,16 +2,17 @@
 // @name         GitHub API Button
 // @namespace    https://github.com/Jursin/GitHub-API-Button
 // @version      1.0
-// @description  在 GitHub 仓库导航栏添加 API 按钮，并显示仓库/用户信息
+// @description  在 GitHub 仓库/用户页导航栏添加 API 按钮，并在侧边栏显示仓库/用户 created_at、updated_at 信息
 // @author       Jursin
 // @match        https://github.com/*
 // @icon         https://github.githubassets.com/pinned-octocat.svg
 // @grant        GM_registerMenuCommand
 // @grant        GM_setValue
 // @grant        GM_getValue
-// @downloadURL  https://github.com/Jursin/GitHub-API-Button/raw/refs/heads/main/main.js
-// @updateURL    https://github.com/Jursin/GitHub-API-Button/raw/refs/heads/main/main.js
+// @license MIT
 // @supportURL   https://github.com/Jursin/GitHub-API-Button/issues
+// @downloadURL https://update.greasyfork.org/scripts/546506/GitHub%20API%20Button.user.js
+// @updateURL https://update.greasyfork.org/scripts/546506/GitHub%20API%20Button.meta.js
 // ==/UserScript==
 
 (function() {
