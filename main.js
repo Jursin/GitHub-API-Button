@@ -68,8 +68,8 @@
             .then(response => response.json())
             .then(data => {
                 if (pathParts.length >= 2) {
-                    const sidebarDiv = document.querySelector('.hide-sm.hide-md');
-                    if (sidebarDiv) {
+                    const forksContainer = document.querySelector('.BorderGrid-cell .hide-sm.hide-md');
+                    if (forksContainer) {
                         const createdAt = new Date(data.created_at);
                         const updatedAt = new Date(data.updated_at);
                         
@@ -85,6 +85,10 @@
                         
                         const createdAtStr = createdAt.toLocaleDateString('zh-CN', dateOptions);
                         const updatedAtStr = updatedAt.toLocaleDateString('zh-CN', dateOptions);
+                        
+                        // 创建包含创建时间和更新时间的容器
+                        const timeInfoContainer = document.createElement('div');
+                        timeInfoContainer.className = 'mt-2';
                         
                         const infoDiv1 = document.createElement('div');
                         infoDiv1.className = 'mt-2';
@@ -104,9 +108,9 @@
                             <span>更新于: ${updatedAtStr}</span>
                         `;
                         
-                        // 添加到侧边栏div的末尾
-                        sidebarDiv.appendChild(infoDiv1);
-                        sidebarDiv.appendChild(infoDiv2);
+                        // 添加到复刻容器之后
+                        forksContainer.appendChild(infoDiv1);
+                        forksContainer.appendChild(infoDiv2);
                     }
                 } else if (pathParts.length === 1) {
                     const vcardDetails = document.querySelector('.vcard-details');
